@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-sucess">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
         <div class="container">
             <a href="" class="navbar-brand">Q&As</a>
             
