@@ -1,4 +1,8 @@
 @extends('base')
+
+@section('title',"insert Question")
+    
+@endsection
 @section('content')
     <div class="container">
         <div class="row">
