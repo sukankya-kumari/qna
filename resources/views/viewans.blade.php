@@ -14,7 +14,7 @@ $s = NULL;
                     <h6>Q{{$data->questions_id}}. {{$data->title}}</h6>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body bg-light">
                     <table class="table">
                         @foreach ($ans as $a)
                         <tr>
