@@ -81,7 +81,7 @@ class QuestionController extends Controller
    public function viewans($id){
     $users=User::get();
     $ques = ["ques" => Question::all()];
-      $data = Question::find($id)->first();
+      $data = Question::where('id',$id)->first();
       $ans = Ans::where("questions_id",$id)->get();
       
       return view("viewans",["data"=>$data,"users"=>$users,"ans"=>$ans],$ques);

@@ -8,8 +8,8 @@
                         <button type="button" class="btn btn-light rounded-0 border-0"><i class="bi bi-search"></i></button>
                         <div wire:loading wire:target="search" class="col-4 ms-auto">
                             <p class="text-info font-weight-bold">Searching...........</p>
-                        </div>
                     </div>
+                </div>
                    
                     <div class="card-header border">
                         <a href="#Modal" class="btn" data-bs-toggle="modal">
